@@ -2,6 +2,11 @@
 httpd in Docker
 
 ```bash
+#first for fun run:
+docker run -it oraclelinux /bin/bash
+```
+
+```bash
 docker build -t chanslor/httpd:v1 .
 docker run --name=web1 -p 8080:80 chanslor/httpd:v1
 ```
