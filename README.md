@@ -21,4 +21,9 @@ docker logs -f web3
 docker rm $(docker ps -a -q) #remove all non-running
 docker rmi chanslor/httpd:v1
 
+docker network ls
+docker network inspect 968bd369039d
+docker inspect -f '{{ .NetworkSettings.IPAddress }}' web3
+
+
 ```
