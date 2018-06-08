@@ -3,7 +3,9 @@ httpd in Docker
 
 ```bash
 #first for fun run:
-docker run -it oraclelinux /bin/bash
+docker run -it --name=chanslor oraclelinux /bin/bash
+exit or CTRL+D
+docker rm chanslor
 ```
 
 ```bash
