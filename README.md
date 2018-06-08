@@ -15,7 +15,7 @@ docker run --name=web1 -p 8080:80 chanslor/httpd:v1
 
 START IN BACKGROUND:
 ```bash
-docker run --name=web1 --net=host -d -p 80:80 chanslor/httpd:v3
+docker run --name=web1 -d -p 8080:80 chanslor/httpd:v3
 
 ```
 
